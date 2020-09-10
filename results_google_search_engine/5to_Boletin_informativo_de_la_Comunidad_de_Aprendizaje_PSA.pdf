@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html class=" js svg" lang="es">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width" name="viewport">
+	<title>El portal único del gobierno. | gob.mx</title>
+	<link href="mantenimiento/favicon.ico" rel="shortcut icon">
+	<link rel="stylesheet" media="all" href="mantenimiento/application.css" data-turbolinks-track="true">
+</head>
+<body data-no-turbolink="true">
+<header>
+	<nav class="navbar navbar-inverse navbar-fixed-top navbar--cancer-de-mama" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<button class="navbar-toggle collapsed" data-target="#navbarMainCollapse" data-toggle="collapse" type="button">
+				<span class="sr-only">Interruptor de Navegación</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">
+				<img width="75" height="23" alt="gob.mx" src="mantenimiento/logoheader.png">
+			</a>
+		</div>
+		<div class="collapse navbar-collapse" id="navbarMainCollapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#" style="color:#FFFFFF;">Trámites</a></li>
+				<li><a href="#" style="color:#FFFFFF;">Gobierno</a></li>
+				<li><a href=""><i class="icon-search"></i></a></li>
+			</ul>
+		</div>
+	</div>
+	</nav>
+</header>
+<main class="inner-page interior" role="main">
+	<div class="container">
+		<ol class="breadcrumb">
+			<li><a href="/"><i class="icon icon-home"></i></a></li>
+			<li><a href="#">Error</a></li>
+		</ol>
+		<section>
+			<div class="row">
+				<div class="col-sm-7">
+					<h1>La ruta no existe</h1>
+					<h3>Error 500</h3>
+					<p>Intente de nuevo.</p>
+					<div class="top-buffer">
+						<hr>
+					</div>
+				</div>
+				<div class="col-sm-4 col-sm-offset-1">
+					<figure>
+						<img src="mantenimiento/error.svg" alt="migrando a gob.mx">
+					</figure>
+					<h3></h3>
+					<ul>
+						<li><a href="https://www.gob.mx/">Regresar al inicio</a></li>
+						<li><a href="https://www.gob.mx/busqueda">Ver archivo de gob.mx</a></li>
+						<li><a href="javascript:history.back();">Volver a la página anterior e intentarlo de nuevo.</a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<div class="col-md-12 bottom-buffer"></div>
+	</div>
+</main>
+
+<footer class="main-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4 col-sm-offset-4">
+				<!-- img alt="Mover a México" src="mantenimiento/logo_mexico.svg" width="172" height="70" -->
+			</div>
+		</div>
+	</div>
+</footer>
+<script src="//code.jquery.com/jquery-1.11.3.js"></script>
+<script src="mantenimiento/main.js"></script>
+
+</body>
+</html>
