@@ -1,3 +1,7 @@
-import os
+from codes.mexico import Mexico
 
-print(os.listdir("./results_google_search_engine"))
+if __name__ == '__main__':
+    scrapper = Mexico()
+    scrapper.extract_urls()
+    #scrapper.load_urls()
+    scrapper.download_documents()
